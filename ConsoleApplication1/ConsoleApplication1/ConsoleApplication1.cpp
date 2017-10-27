@@ -51,7 +51,7 @@ int main(){
 	int coluna = 0;
 	int auxiliar = 0;
 	int chamadas = 0;
-
+	mapa.jogador = 0;
 	tamanho_mapa(mapa, linha,  coluna, auxiliar, chamadas);
 	system("pause");
     return 0;
